@@ -1,6 +1,6 @@
 
 .img{
-	background-image:url('bg_re.jpg');
+	background-image:url('images/bg_re.jpg');
 	background-repeat: repeat-x;
 	background-size: 176px;
 	
@@ -23,6 +23,10 @@
 	color: #ffffff;
 	margin-bottom: 20px;
 	margin-top:0px;
+}
+.back{
+	background-image: url("Capture.png");
+	background-repeat: repeat-x;
 }
 .a1{
 	color: #ffffff;
@@ -54,18 +58,22 @@ hr{
 	font-size: 12px;
 
 }
-footer{
-	background-image: url("foot.png");
+.footer1{
+	background-image: url("images/foot.png");
 	margin-left: 0px;
 	margin-bottom: 0px;
 	margin-right: 0px;
 	background-size: cover;
+	height: 65px;
 }
 a{
 	color: #994d00;
 	font-size: 12px;
 }
 
+.textcol{
+	color: blue;
+}
 
 .x{
 	color: #994d00; font-size: 12px;
@@ -74,19 +82,64 @@ a{
 }
 
 
+.to{
+
+	font-style: normal;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 2.05;
+}
+
+.f2{
+position: relative;
+}
+.f22{
+	text-align: center;
+
+}
+
+.head-div{
+	margin-top: 10px;
+}
+.head-p{
+	color: #804000;
+	font-size: : 30px;
+
+}
+hr{
+	color: #804000;
+}
+
+.span1{
+	font-size: 14px;
+	color: #804000;
+}
+
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:500px;
+	width:100%;}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:500px;
+	width:100%;
+}
+.img1{
+	width: 350px;
+	height: 150px;
+	box-shadow: 3px 3px 4px 0px rgba(224,218,215,1);
+}
+.input1{
+	margin-left: 70px;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
+ul li.active a{
+	background-color:black;
+}
 
 
 
