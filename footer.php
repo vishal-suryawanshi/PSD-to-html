@@ -3,7 +3,7 @@
 <head>
 	<title></title>
 </head>
-<body>
+<body >
 	<div class="footer1">
   </div>
 <footer class="f2">
