@@ -108,6 +108,7 @@ position: relative;
 }
 hr{
 	color: #804000;
+	margin-top: -2px;
 }
 
 .span1{
@@ -135,14 +136,25 @@ hr{
 	margin-left: 70px;
 }
 
-
-
-ul li.active a{
+.active{
+	/*background-color:black;*/
+	border-bottom: 1px;
+	border-color: yellow;
+}
+.aaa{
 	background-color:black;
 }
 
+.label1{
+	color: #7f6942;
+}
+.about-div{
+	width: 250px;
+	height: 25px;
+	margin-top: 7px;
+	background-image: linear-gradient(white,white,#f9f4eb);
+}
 
-
-
-
-
+h5{
+	margin-left: 10px;
+}
