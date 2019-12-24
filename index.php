@@ -1,25 +1,20 @@
- <?php 
-  
- 	include('header.php');
- ?>
+ 
  <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="one.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css"> 
+  <title>home</title>
+  <script src="one.js"></script> 
 </head>
 <body style="background-color: #f9f4eb; margin-right: 0px;margin-bottom: 0px;">
+  <?php 
+  include('header.php');
+ ?>
   <div >
 <div class="row">
-     <div class="col-sm-2">
+     <div class="col-sm-12 col-xs-12 col-md-2">
        
      </div>
-     <div class="col-sm-8">
+     <div class="col-md-8 col-sm-12 col-xs-12">
                       <div  id="myCarousel" class="mm carousel slide" data-ride="carousel">
                   <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -54,28 +49,33 @@
                     </a>
                   </div>    
 
-                  <div class="row">
+                  <div class="row" style="margin-top: 20px;">
 
-                  <div class="col-sm-4">
-                    <div class="div5">
-                      <h3>Director Message</h3>
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="div5 index1" >
+                      <h3 class="index1" style="font-size: 20px">Director Message</h3>
                       <hr>
-                      <p>Its’ heartening to see some signal of global economic revival. Though too early to say so, but I am optimistic about the revival of economy earlier than estimated. With our persistent efforts I am happy to see the</p>
+                      <p class="index1">Its’ heartening to see some signal of global economic revival. Though too early to say so, but I am optimistic about the revival of economy earlier than estimated. With our persistent efforts I am happy to see the</p>
                     </div>
                   </div> 
-                  <div class="col-sm-4 l">
-                     <h3>Why us..?</h3>
+                  <div class="col-md-4 col-sm-12 col-xs-12 l">
+                    <div class="div5 index1">
+                     <h3 style="font-size: 20px">Why us..?</h3>
                      <hr>                      >>New Deal<br>>>Service<br>>>Quqality<br>>>Want Help
+                  </div>
                   </div> 
-                  <div class="col-sm-4">
-                     <h3>Testimonial</h3>
+                  <div class="col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="div5 index1">
+                     <h3 class="index1" style="font-size: 20px">Testimonial</h3>
                       <hr>
-                      <p >Human beings, by changing the inner attitudes of their minds, can change the outer aspects of their lives… .<br><p style="float: right; color: #804000;">– William James</p></p>
+                     <!-- <p class="index1"><q>Human beings, by changing the inner attitudes of their minds, can change the outer aspects of their lives… .</q><br><p style="float: right; color: #80663a;">– William James</p></p>-->
+                     <blockquote>Human beings, by changing the inner attitudes of their minds, can change the outer aspects of their lives… .</blockquote><br><p style="float: right; color: #80663a;">– William James</p>
+                    </div>
                   </div>                    
                   </div>  
        
      </div>
-     <div class="col-sm-2">
+     <div class="col-md-2 col-sm-12 col-xs-12">
        
      </div>
 
