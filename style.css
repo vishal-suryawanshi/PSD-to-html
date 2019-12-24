@@ -3,7 +3,7 @@
 	background-image:url('images/bg_re.jpg');
 	background-repeat: repeat-x;
 	background-size: 176px;
-	
+	font-family: Zurich Cn BT Arial,Helvetica,sans-serif;
 }
 .logo{
 	margin-left: 50px;
@@ -14,10 +14,11 @@
 	flex-wrap: wrap;
 }*/
 .social{
-	margin-left: 50px;
+	/*margin-left: 50px;*/
 	margin-top: 30px;
 	color: #ffffff;
 	float: right;
+	margin-right: 10px;
 }
 .nav-l{
 	color: #ffffff;
@@ -29,28 +30,29 @@
 	background-repeat: repeat-x;
 }
 .a1{
-	color: #ffffff;
+	color: #e6decf;
+	font-size: 15px;
 }
 .mm{
 	margin-top: 50px;
 	box-shadow: 2px 2px 4px #000000;
 }
-.div5{
+.div5 {
 	margin-top: 10px;
 	margin-left: 15px;
 	margin-right: 15px;
 }
-h3{
-	color:#804000;
+
+.index1{
+	color: #80663a;
 
 }
 p{
-	color: #994d00;
+	color: #80663a;
 	font-size: 12px;
 }
-hr{
-	border-color: #994d00;
-	border-width: 1px;
+label{
+	color: #80663a;
 }
 .l{
 	
@@ -107,7 +109,7 @@ position: relative;
 
 }
 hr{
-	color: #804000;
+	border-color: #7f6942;
 	margin-top: -2px;
 }
 
@@ -137,9 +139,8 @@ hr{
 }
 
 .active{
-	/*background-color:black;*/
-	border-bottom: 1px;
-	border-color: yellow;
+	border-bottom: 3px solid orange;
+	
 }
 .aaa{
 	background-color:black;
@@ -157,4 +158,59 @@ hr{
 
 h5{
 	margin-left: 10px;
+	color: #80663a;
+}
+.nav .b{
+	background-color: red;
+}
+@media only screen and (max-width: 768px){
+	.na{
+		background-color: #80694d;
+	}
+	.social{
+		display: none;
+	}
+}
+
+q:lang(de) {
+    quotes: "„" "“";
+    height: 120px;
+}
+
+
+
+h3{
+	color: #80663a;
+}
+
+blockquote {
+    position: relative;
+    margin: -1.5em;
+    font-size: 12px;
+    padding: 1.5em 1em 0.5em 3em;
+    border-left: 0px;
+}
+blockquote:before {
+    position: absolute;
+    font-size: 4em;
+    line-height: 1;
+    top: 10px;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    float:right;
+    font-size:4em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+.na .a1:hover {
+  background-color:transparent;
+  color: #ffffff;
+}
+
+.foot-font{
+	font-family: Zurich Cn BT Arial,Helvetica,sans-serif;
 }
