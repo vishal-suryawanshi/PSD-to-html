@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'ZurichBT-RomanCondensed';
+  src: url('ZurichBT-RomanCondensed.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+address, cite, code,
+em, img,q,small, strong,b, i,ul, li,
+form, label,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+ font-family:ZurichBT-RomanCondensed, sans-serif;
+}
+body{
+	line-height: 1;
+	background-color:  #f9f4eb;
+  font-family: Arial,sans-serif;
+}
+a{
+	color: #e6decf;
+  font-family: ZurichW03-XBlk Arial,Helvetica,sans-serif;
+}
+p,div,h1,h2,h3,h4,h5,ul li,hr,strong,label,form{
+	color:#6d6556;
+}
+p,div{
+	font-size: 12px;
+	line-height: 1.7;
+  font-family: ZurichW03-XBlk Arial,Helvetica,sans-serif;
+}
+/*blockquote {
+    position: relative;
+    margin: -1.5em;
+    font-size: 12px;
+    padding: 1.5em 1em 0.5em 3em;
+    border-left: 0px;
+}*/
+blockquote:before {
+    position: absolute;
+    font-size: 4em;
+    line-height: 1;
+    top: 25px;
+    left: 15px;
+    content: "\201C";
+}
+blockquote:after {
+    float:right;
+    font-size:4em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css";
+
+.flex-caption { 
+  background: tomato; 
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+}
+h3{
+	font-size: 20px;
+  font-family: ZurichW03-XBlk Arial,Helvetica,sans-serif;
+  font-weight: bold;
+}
+
+figure-caption{
+  font-size: 20px;
+}
+.gmap_canvas{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
