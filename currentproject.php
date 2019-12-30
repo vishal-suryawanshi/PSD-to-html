@@ -6,16 +6,16 @@
 	<script src="one.js"></script>
 </head>
 <script src="lightbox-plus-jquery.min.js"></script>
-<body style="background-color: #f9f4eb; margin-right: 0px;margin-bottom: 0px;">
+<body>
 <div>
 	
 	<?php 
- 	include('header.php');
+ 	include('header1.php');
  ?>
 	<div class="container">
-		<div style="align-content: center; ">
+		<div class="cont2">
 				<div class="head-div">
-				<h3 class="head-p" style="color: #80663a">Current projects</h3><hr>
+				<h3>Current projects</h3>
 				</div>
 				<div class="mapouter">
 					<div class="gmap_canvas">
@@ -27,7 +27,7 @@
 				<div class="col-md-3">
 					<figure>
 						<a href="images/ban.jpg" data-lightbox="example-"><img class="img-thumbnail img1" src="images/om.jpg"><br><br></a>
-						<figcaption class="head-p " style="margin-left: 50px; color: #80663a">OM Nikam Estate</figcaption>
+						<figcaption class="current-figcap ">OM Nikam Estate</figcaption>
 						<hr>
 					</figure>
 				</div>
@@ -41,7 +41,7 @@
 
 
 	<?php 
- 	include('footer.php');
+ 	include('footer1.php');
  ?>
 
 
