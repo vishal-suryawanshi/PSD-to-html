@@ -1,15 +1,17 @@
 @font-face {
   font-family: 'ZurichBT-RomanCondensed';
-  src: url('ZurichBT-RomanCondensed.eot') format('embedded-opentype');
+  src: url('assets/fonts/zurchc-webfont.eot');
+  src:  url('fonts/ZurichBT-RomanCondensed.woff') format('woff'), 
+        url('fonts/ZurichBT-RomanCondensed.ttf')  format('truetype'), 
+        url('fonts/ZurichBT-RomanCondensed.svg#ZurichBT-RomanCondensed') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-html, body, div, span, iframe,
+html, div, span, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 address, cite, code,
-em, img,q,small, strong,b, i,ul, li,
-form, label,
+em, img,q,small,b, i,ul, li,
 article, aside, canvas, details, figcaption, figure, 
 footer, header, hgroup, menu, nav {
  margin:0;
@@ -19,7 +21,7 @@ footer, header, hgroup, menu, nav {
  font-size:100%;
  vertical-align:baseline;
  background:transparent;
- font-family:ZurichBT-RomanCondensed, sans-serif;
+ font-family:'ZurichBT-RomanCondensed', sans-serif;
 }
 body{
 	line-height: 1;
@@ -28,15 +30,15 @@ body{
 }
 a{
 	color: #e6decf;
-  font-family: ZurichW03-XBlk Arial,Helvetica,sans-serif;
+  font-family: 'ZurichBT-RomanCondensed', Arial,Helvetica,sans-serif;
 }
-p,div,h1,h2,h3,h4,h5,ul li,hr,strong,label,form{
+p,div,h1,h2,h3,h4,h5,ul li,hr,strong,form{
 	color:#6d6556;
 }
 p,div{
 	font-size: 12px;
-	line-height: 1.7;
-  font-family: ZurichW03-XBlk Arial,Helvetica,sans-serif;
+	line-height: 1.8;
+  font-family:Arial,Helvetica,sans-serif;
 }
 /*blockquote {
     position: relative;
@@ -73,8 +75,9 @@ blockquote:after {
 }
 h3{
 	font-size: 20px;
-  font-family: ZurichW03-XBlk Arial,Helvetica,sans-serif;
+  font-family: ZurichBT-RomanCondensed, Arial,Helvetica,sans-serif;
   font-weight: bold;
+  color: #7f6942;
 }
 
 figure-caption{
@@ -83,4 +86,8 @@ figure-caption{
 .gmap_canvas{
     margin-top: 25px;
     margin-bottom: 20px;
+}
+.container{
+  max-width: 1000px;
+
 }
