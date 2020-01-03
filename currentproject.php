@@ -2,10 +2,9 @@
 <html>
 <head>
 	<title>current project</title>
-	<link rel="stylesheet" type="text/css" href="lightbox.min.css">
-	<script src="one.js"></script>
+	<link rel="stylesheet" type="text/css" href="lightbox/lightbox.min.css">
 </head>
-<script src="lightbox-plus-jquery.min.js"></script>
+<script src="lightbox/lightbox-plus-jquery.min.js"></script>
 <body>
 <div>
 	
@@ -13,8 +12,8 @@
  	include('header1.php');
  ?>
 	<div class="container">
-		<div class="cont2">
-				<div class="head-div">
+		
+				<div class="head-div-title">
 				<h3>Current projects</h3>
 				</div>
 				<div class="mapouter">
@@ -35,11 +34,8 @@
 				</div>
 				<div class="col-md-4"></div>
 			</div>
-		</div>
+		
 	</div>
-
-
-
 	<?php 
  	include('footer1.php');
  ?>
