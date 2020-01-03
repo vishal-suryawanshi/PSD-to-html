@@ -2,11 +2,11 @@
 <html>
 <head>
 	<title>Completed project</title>
-	<link rel="stylesheet" type="text/css" href="lightbox.min.css">
-	<link rel="stylesheet" type="text/css" href="lightbox.css">
-	<script src="one.js"></script>
+	<link rel="stylesheet" type="text/css" href="lightbox/lightbox.min.css">
+	<link rel="stylesheet" type="text/css" href="lightbox/lightbox.css">
+	
 </head>
-<script src="lightbox-plus-jquery.min.js"></script>
+<script src="lightbox/lightbox-plus-jquery.min.js"></script>
 <body>
 <div>
 	
@@ -15,8 +15,8 @@
  ?>
 
 	<div class="container">
-		<div class="cont2">
-				<div class="head-div">
+		
+				<div class="head-div-title">
 				<h3 style="font-size: 17px">Completed projects</h3>
 				</div>
 				<div class="mapouter">
@@ -64,7 +64,7 @@
 					</figure>
 				</div>
 			</div>
-		</div>
+		
 	</div>
 
 
